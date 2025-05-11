@@ -4,10 +4,10 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Pedro Gregório Fernandes Pontes
+- Matricula:891325
+- Proposta de projeto escolhida: Catálogo de Filmes/Séries
+- Breve descrição sobre seu projeto: 
 
 **Print do teste da API com visualização do JSON**
 

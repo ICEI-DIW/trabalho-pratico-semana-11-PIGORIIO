@@ -1,0 +1,28 @@
+{
+  "filmes": [
+    {
+      "id": 1,
+      "titulo": "Chaotic",
+      "descricao": "Aqui trouxemos uma série bem antiga que você irá gostar, pra quem gosta de jogos e desenhos.",
+      "elenco": ["Greg Abbey", "Maddie Blaustein"],
+      "imagem": "Chaotic-série.jpg",
+      "categoria": "Série"
+    },
+    {
+      "id": 2,
+      "titulo": "Chucky",
+      "descricao": "Uma mulher compra para seu filho um boneco amaldiçoado...",
+      "elenco": ["Jennifer Tilly", "Zackary Arthur"],
+      "imagem": "Chucky-Filme.png",
+      "categoria": "Filme"
+    },
+    {
+      "id": 3,
+      "titulo": "Sonic 3",
+      "descricao": "Sonic, Knuckles e Tails se juntam para enfrentar Shadow...",
+      "elenco": ["Jim Carrey", "Keanu Reeves"],
+      "imagem": "Sonic 3 filme.jpg",
+      "categoria": "Filme"
+    }
+  ]
+}
