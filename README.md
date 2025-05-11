@@ -7,7 +7,7 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 - Nome: Pedro Gregório Fernandes Pontes
 - Matricula:891325
 - Proposta de projeto escolhida: Catálogo de Filmes/Séries
-- Breve descrição sobre seu projeto: 
+- Breve descrição sobre seu projeto: Nele consiste em procurar séries ou filmes sendo eles novos ou velhos, para caso queira ter uma nostalgia ou acompanhar os lançamentos de filmes ou séries.
 
 **Print do teste da API com visualização do JSON**
 
