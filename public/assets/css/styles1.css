@@ -1,0 +1,57 @@
+/* Cor de fundo do corpo */
+body {
+  background-color: #1e5851; /* Cor de fundo clara */
+  font-family: 'Arial', sans-serif;
+  color: #2b7559; /* Cor do texto padrão */
+}
+
+/* Container */
+.container {
+  background-color: #dbe9d5; /* Cor de fundo branco para o conteúdo */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Botão de "Voltar" */
+.btn-secondary {
+  background-color: #4ab680; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Quando o botão de "Voltar" for hover (passar o mouse sobre ele) */
+.btn-secondary:hover {
+  background-color: #184b23; /* Cor de fundo do botão quando hover */
+}
+
+/* Estilo dos detalhes da notícia */
+#detalhes-noticia h1 {
+  color: #255e4b; /* Cor para o título */
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Para parágrafos com informações adicionais */
+#detalhes-noticia p {
+  color: #1e7562; /* Cor para o texto dos parágrafos */
+  font-size: 1.2em;
+}
+
+/* Estilo para imagens complementares */
+.imagens-complementares img {
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Para as descrições das imagens complementares */
+.imagens-complementares p {
+  color: #0e0d0d;
+  font-size: 1em;
+  font-style: italic;
+}

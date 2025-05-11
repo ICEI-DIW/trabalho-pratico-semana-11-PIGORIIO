@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+    <!-- Removido Bootstrap -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1 class="title" style="text-align: center;">JEYFLIX</h1>
+
+        <form style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
+            <input name="Pesquisa" placeholder="Pesquisar o nome do Filme/Série" style="padding: 10px; width: 300px;" />
+            <button type="submit" style="padding: 10px 20px; background-color: green; color: white; border: none;">Pesquisar</button>
+        </form>
+
+
+        <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+            <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+                <!-- Card de Filme -->
+                <div style="flex: 1 1 250px; border: 1px solid #ccc; padding: 10px;">
+                    <section style="background-color: #28a745; padding: 20px; color: white;">
+                        <article>Pra quem gosta de série</article>
+                        <img src="Chaotic-série.jpg" alt="Chaotic" height="200">
+                        <p>Aqui trouxemos uma série bem antiga que você irá gostar, pra quem gosta de jogos e desenhos.</p>
+                        <h2>Chaotic</h2>
+                        <h5>Narra a história de um garoto chamado Tom e seu amigo Kaz...</h5>
+                        <h3>ELENCO: Greg Abbey, Maddie Blaustein, etc.</h3>
+                    </section>
+                </div>
+
+                <!-- Repita os blocos abaixo para os outros filmes -->
+
+                <div style="flex: 1 1 250px; border: 1px solid #ccc; padding: 10px;">
+                    <section style="background-color: #49a860; padding: 30px; color: white;">
+                        <img src="Chucky-Filme.png" alt="Chucky" height="200">
+                        <h2>Chucky</h2>
+                        <h5>Uma mulher compra para seu filho um boneco amaldiçoado...</h5>
+                        <h3>ELENCO: Jennifer Tilly, Zackary Arthur, etc.</h3>
+                    </section>
+                </div>
+
+                <div style="flex: 1 1 250px; border: 1px solid #ccc; padding: 10px;">
+                    <section style="background-color: #1c5c2b; padding: 30px; color: bisque;">
+                        <img src="Sumala-filme.jpg" alt="Sumala" height="200">
+                        <h2>Sumala</h2>
+                        <h5>Um espírito maligno em busca de vingança retorna...</h5>
+                        <h3>ELENCO: Makayla Rose, Luna Maya, etc.</h3>
+                    </section>
+                </div>
+
+                <div style="flex: 1 1 250px; border: 1px solid #ccc; padding: 10px;">
+                    <section style="background-color: #228138; padding: 30px; color: bisque;">
+                        <img src="Sonic 3 filme.jpg" alt="Sonic 3" height="200">
+                        <h2>Sonic 3</h2>
+                        <h5>Sonic, Knuckles e Tails se juntam para enfrentar Shadow...</h5>
+                        <h3>ELENCO: Jim Carrey, Keanu Reeves, etc.</h3>
+                    </section>
+                </div>
+
+                <div style="flex: 1 1 250px; border: 1px solid #ccc; padding: 10px;">
+                    <section style="background-color: #225c30; padding: 30px; color: bisque;">
+                        <img src="Klaus.jpg" alt="Klaus" height="200">
+                        <h2>Klaus</h2>
+                        <h5>Um carteiro egoísta e um fabricante de brinquedos...</h5>
+                        <h3>ELENCO: Jason Schwartzman, J.K. Simmons, etc.</h3>
+                    </section>
+                </div>
+
+                <div style="flex: 1 1 250px; border: 1px solid #ccc; padding: 10px;">
+                    <section style="background-color: #1d682f; padding: 30px; color: bisque;">
+                        <img src="Wicked.jpg" alt="Wicked" height="200">
+                        <h2>Wicked</h2>
+                        <h5>Na Terra de Oz, uma jovem chamada Elphaba...</h5>
+                        <h3>ELENCO: Ariana Grande, Cynthia Erivo, etc.</h3>
+                    </section>
+                </div>
+
+                <div style="flex: 1 1 250px; border: 1px solid #ccc; padding: 10px;">
+                    <section style="background-color: #1f7934; padding: 30px; color: bisque;">
+                        <img src="One Piece Gold.jpg" alt="One Piece Gold" height="200">
+                        <h2>One Piece Gold</h2>
+                        <h5>Os Piratas do Chapéu de Palha enfrentam o governador...</h5>
+                        <h3>ELENCO: Keith Silverstein, Vic Mignogna, etc.</h3>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <section style="max-width: 1200px; margin: 50px auto;">
+            <h2 style="text-align: center;">EM BREVE!</h2>
+            <div id="noticias-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
+              <!-- Cards de notícia serão adicionados aqui -->
+            </div>
+          </section>
+          
+
+
+        <script>
+            const frmPesquisa = document.querySelector("form");
+            frmPesquisa.onsubmit = (ev) => {
+                ev.preventDefault();
+                const pesquisa = ev.target.Pesquisa.value;
+
+                if (pesquisa === "") {
+                    alert('Preencha o Campo!');
+                    return;
+                }
+
+                console.log('Pesquisando por:', pesquisa);
+            }
+        </script>
+        <!-- Removidos os scripts do Bootstrap -->
+        <script src="app.js"></script>
+    </main>
+</body>
+</html>
