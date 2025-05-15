@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catálogo de Filmes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1 class="title" style="text-align: center;">JEYFLIX</h1>
+
+    <form style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
+      <input name="Pesquisa" placeholder="Pesquisar o nome do Filme/Série" style="padding: 10px; width: 300px;" />
+      <button type="submit" style="padding: 10px 20px; background-color: green; color: white; border: none;">Pesquisar</button>
+    </form>
+
+    <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+      <div id="catalogo-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
+      </div>
+    </div>
+
+    <section style="max-width: 1200px; margin: 50px auto;">
+      <h2 style="text-align: center;">EM BREVE!</h2>
+      <div id="noticias-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
+      </div>
+    </section>
+
+    <script>
+      const frmPesquisa = document.querySelector("form");
+      frmPesquisa.onsubmit = (ev) => {
+        ev.preventDefault();
+        const pesquisa = ev.target.Pesquisa.value;
+        if (pesquisa === "") {
+          alert('Preencha o Campo!');
+          return;
+        }
+        console.log('Pesquisando por:', pesquisa);
+      };
+    </script>
+    <script src="app.js"></script>
+  </main>
+</body>
+</html>

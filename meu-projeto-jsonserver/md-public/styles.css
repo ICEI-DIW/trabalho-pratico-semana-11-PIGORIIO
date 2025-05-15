@@ -1,0 +1,154 @@
+/* Aqui entra a Coloração do site  */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: rgb(86, 150, 128);
+  }
+  
+  h1.title {
+    background-color: burlywood;
+    color: rgb(104, 77, 44);
+    padding: 5px;
+  }
+  
+  form {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+  }
+  
+  form input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    flex: 1;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: burlywood;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: rgb(122, 94, 58);
+  }
+  
+  /* Lista agora utiliza Grid */
+  .lista {
+    padding: 5px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cria um grid responsivo */
+    gap: 10px; /* Espaçamento entre os itens */
+    justify-items: center; /* Alinha os itens no centro */
+  }
+  
+  .item {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .item:hover {
+    background-color: burlywood;
+    cursor: pointer;
+  }
+  
+  .item img {
+    width: 100px;
+  }
+  
+  @media all and (min-width: 768px) {
+    .lista {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+  }
+
+
+  /* Aqui Começa a coloração dos butões */
+
+  body {
+    background-color: rgb(86, 150, 128);
+}
+
+h1.title {
+    background-color: burlywood;
+    color: rgb(104, 77, 44);
+    padding: 5px;
+}
+
+form {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+}
+
+form input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: burlywood;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(122, 94, 58);
+}
+
+/* Estilo adicional para os itens */
+.item {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+.item:hover {
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.item img {
+    width: 100px;
+}
+  
+
+a {
+
+  background-color: rgb(117, 88, 52);
+  color: bisque;
+
+}
+a:hover {
+  color: rgb(37, 26, 13) ;
+}
+
+
+/*aksjnijfasbabki*/
+

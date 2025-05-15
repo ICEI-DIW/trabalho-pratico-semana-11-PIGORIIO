@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes da Notícia</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <a href="index.html" class="btn btn-secondary mb-4">← Voltar</a>
+    <div id="detalhes-noticia">
+      <!-- Detalhes da notícia serão inseridos aqui via JS -->
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      carregarDados(); // ou renderizarDetalhes() se os dados já estiverem carregados
+    });
+  </script>
+</body>
+</html>
