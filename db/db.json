@@ -1,18 +1,139 @@
 {
-  "usuarios": [
+  "catalogo": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "Chaotic",
+      "descricao":"Chaotic mistura ação, aventura e ficção científica. A série segue Tom, um garoto que descobre um jogo de cartas que leva os jogadores a um universo paralelo, onde criaturas e batalhas se tornam reais. Ele e seu amigo Kaz exploram o mundo de Perim em busca de segredos e poder.",
+      "sinopse": "Narra a história de um garoto chamado Tom e seu amigo Kaz...",
+      "elenco": ["Greg Abbey", "Maddie Blaustein"],
+      "imagem": "/public/Chaotic-série.jpg",
+      "tipo": "série"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      
+    "id":2,
+      "titulo": "Chucky",
+      "descricao":"Um dos vilões mais icônicos do terror, Chucky é um boneco possuído pela alma de um assassino em série. Nesta trama, o terror começa quando uma mulher compra o brinquedo amaldiçoado para seu filho, desencadeando uma série de eventos macabros e violentos",
+      "sinopse": "Uma mulher compra para seu filho um boneco amaldiçoado...",
+      "elenco": ["Jennifer Tilly", "Zackary Arthur"],
+      "imagem": "/public/Chucky-Filme.png",
+      "tipo": "filme"
+    },
+    {
+      
+    "id":3,
+      "titulo": "Sumala",
+      "descricao": "Em Sumala, um espírito maligno retorna dos mortos em busca de vingança. Enraizado em lendas sobrenaturais, o filme mistura terror psicológico com elementos folclóricos, criando uma atmosfera intensa e assustadora.",
+      "sinopse": "Um espírito maligno em busca de vingança retorna...",
+      "elenco": ["Makayla Rose", "Luna Maya"],
+      "imagem": "/public/Sumala-filme.jpg",
+      "tipo": "filme"
+    },
+    {
+      
+    "id":4,
+      "titulo": "Sonic 3",
+      "descricao": "Em Sonic 3, o ouriço azul favorito dos games retorna em mais uma aventura eletrizante. Desta vez, Sonic se une a seus aliados Knuckles e Tails para enfrentar uma nova ameaça: Shadow, um rival poderoso com habilidades surpreendentes. Com ação veloz, humor e emoção, o filme promete conquistar fãs de todas as idades.",
+      "sinopse": "Sonic, Knuckles e Tails se juntam para enfrentar Shadow...",
+      "elenco": ["Jim Carrey", "Keanu Reeves"],
+      "imagem": "/public/Sonic 3 filme.jpg",
+      "tipo": "filme"
+    },
+    {
+      
+    "id":5,
+      "titulo": "Klaus",
+      "descricao":"Klaus é uma animação comovente sobre a origem do Papai Noel. Um carteiro egoísta é enviado para uma cidade remota e gelada, onde conhece um misterioso fabricante de brinquedos. Juntos, eles transformam uma comunidade fria e hostil com atos de generosidade.",
+      "sinopse": "Um carteiro egoísta e um fabricante de brinquedos...",
+      "elenco": ["Jason Schwartzman", "J.K. Simmons"],
+      "imagem": "/public/Klaus.jpg",
+      "tipo": "filme"
+    },
+    {
+      
+     "id":6,
+      "titulo": "Wicked",
+      "descricao":"Baseado no famoso musical da Broadway, Wicked reimagina a história da Bruxa Má do Oeste. O filme acompanha Elphaba, uma jovem incompreendida com poderes mágicos, e sua improvável amizade com Glinda, a futura Bruxa Boa, antes dos eventos de O Mágico de Oz",
+      "sinopse": "Na Terra de Oz, uma jovem chamada Elphaba...",
+      "elenco": ["Ariana Grande", "Cynthia Erivo"],
+      "imagem": "/public/Wicked.jpg",
+      "tipo": "filme"
+    },
+    {
+      
+    "id":7,
+      "titulo": "One Piece Gold",
+      "descricao": "Nesta aventura vibrante do universo One Piece, a tripulação dos Chapéus de Palha chega à Grante Tesoro, uma cidade flutuante controlada por um magnata cruel. Lá, Luffy e seus amigos enfrentam armadilhas luxuosas e desafios para libertar os oprimidos.",
+      "sinopse": "Os Piratas do Chapéu de Palha enfrentam o governador...",
+      "elenco": ["Keith Silverstein", "Vic Mignogna"],
+      "imagem": "/public/One Piece Gold.jpg",
+      "tipo": "filme"
+    }
+
+  ],
+
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "Em breve o lançamento da série animada: Go for it, Nakamura!",
+      "descricao": "Um garoto tímido se apaixona pelo seu colega de classe, nisso entra em diversas aventuras para se aproximar do rapaz.",
+      "conteudo": "É um mangá de comédia romântica do gênero Boys Love (BL).",
+      "categoria": "LGBTQ+, ANIME, ROMANCE, COMÉDIA.",
+      "autor": "Syundei",
+      "data": "2025-05-18",
+      "imagem": "/public/Nakamura.png",
+      "imagens_complementares": [
+        {
+          "src": "/public/nak1.jpg",
+          "descricao": "Go for it, Nakamura! é uma doce e envolvente jornada emocional que captura as inseguranças e os primeiros amores com uma sensibilidade única. Esta série animada mergulha na vida de Nakamura, um jovem tímido e introspectivo, que se vê envolvido nas complexas emoções de um amor à primeira vista por seu colega de classe. Em um cenário de aventuras cotidianas e momentos de vulnerabilidade, Nakamura explora os altos e baixos do afeto, descobrindo o significado de se abrir para os outros e de se permitir ser verdadeiro consigo mesmo."
+        },
+        {
+          "src": "/public/nak2.jpg",
+          "descricao": "Go for it, Nakamura! é uma celebração da vulnerabilidade, da coragem silenciosa de se apaixonar e da beleza de ser quem você realmente é. Cada episódio é uma janela aberta para um mundo de emoção, onde até as incertezas se transformam em momentos mágicos e inesquecíveis."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "ESTREIA DO NOVO FILME: G20",
+      "descricao": "Terroristas assumem a cúpula do G20. A Presidenta dos EUA usa sua experiência em guerras para proteger todos.",
+      "conteudo": "Político, explorando liderança feminina, terrorismo e economia.",
+      "categoria": "DRAMA, AÇÃO, THRILLER.",
+      "autor": "Caitlyn Parrish e Noah Miller",
+      "data": "2025-08-24",
+      "imagem": "/public/G20.png",
+      "imagens_complementares": [
+        {
+          "src": "/public/g201.jpg",
+          "descricao": "Interpretada pela poderosa Viola Davis, Sutton é uma mulher que combina uma força indomável com uma profunda vulnerabilidade. Sua experiência de combate em guerras passadas é posta à prova quando ela se vê obrigada a usar toda sua inteligência e coragem para desmantelar uma trama perigosa, arquitetada por Edward Rutledge, um vilão complexo e enigmático vivido por Antony Starr. O vilão, um mestre da manipulação digital, utiliza deepfakes e criptomoedas para ameaçar a economia global, provocando um jogo de gato e rato com repercussões que vão muito além da política."
+        },
+        {
+          "src": "/public/g202.jpg",
+          "descricao": "A cinematografia imersiva e a trilha sonora eletricamente carregada tornam G20 uma obra que não só te prende ao longo de suas reviravoltas emocionantes, mas também te faz refletir sobre os tempos turbulentos em que vivemos. É um filme que vai te manter na ponta da cadeira, repleto de ação, emoção e uma reflexão contundente sobre o poder no século XXI."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "CASO QUEIRA UM POUCO DE RISADAS, VEM AÍ: DIGITAL CIRCUS",
+      "descricao": "Cinco humanos presos em um mundo virtual e sem memórias. Uma série animada independente australiana.",
+      "conteudo": "Temas como identidade, traumas e sanidade.",
+      "categoria": "COMÉDIA SOMBRIA, DRAMA E FICÇÃO CIENTÍFICA.",
+      "autor": "Gooseworx",
+      "data": "2025-07-26",
+      "imagem": "/public/Digital-Circus.png",
+      "imagens_complementares": [
+        {
+          "src": "/public/circus1.jpg",
+          "descricao": "Com uma estética única, Digital Circus apresenta uma animação envolvente que combina elementos de ficção científica e comédia sombria, criando uma atmosfera inquietante e ao mesmo tempo fascinante. A série não tem medo de explorar temas profundos como a construção da identidade, o impacto dos traumas e a busca por sentido em um mundo caótico. Cada episódio é uma imersão psicológica, onde o espectador é levado a questionar sua própria percepção da realidade, enquanto os personagens tentam desvendar os enigmas de um mundo virtual que pode ser tanto uma prisão quanto uma chave para a liberdade."
+        },
+        {
+          "src": "/public/circus2.jpg",
+          "descricao": "Cinco almas perdidas, sem memória de quem são ou como chegaram ali, acordam em um universo virtual estranho e labiríntico. Cada um, com suas características e peculiaridades, luta para entender o que é real e o que é fruto de suas próprias mentes distorcidas. Juntos, eles embarcam em uma jornada de autodescoberta e sobrevivência, onde a linha entre o amigo e o inimigo se torna cada vez mais nebulosa."
+        }
+      ]
     }
   ]
 }
+
+
